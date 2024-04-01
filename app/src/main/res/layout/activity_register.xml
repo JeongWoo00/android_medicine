@@ -1,12 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".RegisterActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:text="약국찾기 회원가입을\n\t\t\t\t\t\t\t\t\t\t환영합니다!"
+        android:textSize="40dp">
+    </TextView>
 
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="<성명>">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edt_uName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름">
+    </EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="<ID>">
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/edt_uID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아이디">
+    </EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="<PassWord>">
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/edt_uPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="<Confirm PassWord>">
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/edt_uCPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호 확인">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+            <Button
+            android:id="@+id/btn_Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가입하기"
+            android:textSize="50dp">
+
+            </Button>
+    </LinearLayout>
 
 </LinearLayout>

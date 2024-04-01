@@ -41,8 +41,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="80dp"
-        android:layout_gravity="center"
-        >
+        android:layout_gravity="center">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,15 +53,15 @@
                 android:id="@+id/uid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="아이디"></EditText>
+                android:hint="아이디">
+            </EditText>
 
             <EditText
                 android:id="@+id/upw"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="비밀번호">
-        </EditText
-                >
+            </EditText>
         </LinearLayout>
         <Button
             android:id="@+id/btn_login"
@@ -73,11 +72,7 @@
             android:text="로그인"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:background="@drawable/radius"
-
-
-
-            >
+            android:background="@drawable/radius">
         </Button>
     </LinearLayout>
 <!--    아이디 비밀번호 로그인-->
